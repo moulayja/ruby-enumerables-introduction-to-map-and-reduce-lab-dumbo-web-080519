@@ -21,6 +21,6 @@ end
 
 def reduce_to_total(array, start_point)
 add_array = array.reduce(:+)
-total = add_array+start_point
+total = add_array + start_point
 return total
 end 
