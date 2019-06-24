@@ -19,5 +19,5 @@ end
 
 
 def reduce_to_total(array)
-  array.reduce(:)
+  array.reduce(:+)
 end
