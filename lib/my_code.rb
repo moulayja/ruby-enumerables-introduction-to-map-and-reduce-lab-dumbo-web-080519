@@ -20,5 +20,7 @@ def reduce_to_total(array)
 end
 
 def reduce_to_total(array, start_point)
-array.reduce(:+)+start_point
+add_array = array.reduce(:+)
+total = add_array+start_point
+return total
 end 
