@@ -9,3 +9,7 @@ end
 def map_to_double(array)
  array.map{ |n| n * 2 }
 end
+
+def map_to_square(array)
+ array.map{ |n| n ** 2 }
+end
