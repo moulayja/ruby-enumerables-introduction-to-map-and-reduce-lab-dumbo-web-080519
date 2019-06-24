@@ -19,5 +19,5 @@ end
 
 
 def reduce_to_total(array)
-  array.reduce(0) { |reduce_to_total, num| reduce_to_total + num }
+  array.reduce(:)
 end
