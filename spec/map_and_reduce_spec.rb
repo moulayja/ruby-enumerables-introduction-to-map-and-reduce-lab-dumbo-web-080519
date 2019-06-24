@@ -28,7 +28,7 @@ describe 'my own map-like methods' do
 end
 
 
-=============================================  Reduce =================================================================
+# =============================================  Reduce =================================================================
 
 describe 'my own reduce-like methods' do
   describe "reduce_to_total returns a running total when not given a starting point" do
