@@ -15,11 +15,11 @@ def map_to_square(array)
 end
 
 
-def reduce_to_total(array)
+def reduce_to_total1(array)
   array.reduce(:+)
 end
 
-def reduce_to_total(array,start_point)
+def reduce_to_total2(array,start_point)
 add_array = array.reduce(:+)
 total = add_array + start_point
 return total
